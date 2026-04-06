@@ -1,3 +1,7 @@
+Cd /d %~dp0
+echo %CD%
+chcp 65001 > nul
+
 set WORKSPACE=../..
 set LUBAN_DLL=%WORKSPACE%\MyFramework-Data\Tools\Luban\Luban.dll
 set CONF_ROOT=.
